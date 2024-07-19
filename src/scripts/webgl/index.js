@@ -14,7 +14,7 @@ export class App {
 		
 		await new Promise((resolve, reject) => {
 			textureLoader.load(
-					'images/1-10.png',
+					'../images/1-10.png',
 					_texture => {
 						texture = _texture;
 						resolve(texture)
